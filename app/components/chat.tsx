@@ -267,7 +267,7 @@ const Chat = ({
           className={`${styles.input} ${styles.fontStyle}`} // Agrega la clase fontStyle aquí
           value={userInput}
           onChange={(e) => setUserInput(e.target.value)}
-          placeholder="Escribe tu mensaje"
+          placeholder="Escribe un copy para..."
         />
         <button
           type="submit"

@@ -6,8 +6,8 @@ import logo from './favicon.png'; // Assuming favicon.png is in the same directo
 
 const Home = () => {
   const categories = {
-    "AI Assistant": "basic-chat",
-    "Docs Assistant": "file-search",
+    "AI Copy Expert": "basic-chat",
+    "Docs AI Copywriter": "file-search",
   };
 
   return (
@@ -16,7 +16,7 @@ const Home = () => {
         <img src={logo.src} alt="Logo" className={styles.logo} />
       </div>
       <div className={styles.title}>
-        Selecciona una opción y comienza a entrenar tu AICLON
+        Copywrite con Inteligencia Artificial
       </div>
       <div className={styles.container}>
         {Object.entries(categories).map(([name, url]) => (
