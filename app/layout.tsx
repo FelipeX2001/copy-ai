@@ -5,10 +5,10 @@ import { assistantId } from "./assistant-config";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AICLON Assistant",
-  description: "Una IA para crear tu propia IA",
+  title: "CopyAI | IApps",
+  description: "Asistente IA para copywrite",
   icons: {
-    icon: "./aiclon.svg",
+    icon: "public/aiclon.svg",
   },
 };
 
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={montserrat.className}>
         {assistantId ? children : <Warnings />}
-        <img className="logo" src="/aiclon.svg" alt="AICLON Logo" />
+        <img className="logo" src="public/aiclon.svg" alt="AICLON Logo" />
       </body>
     </html>
   );
