@@ -62,7 +62,7 @@ const FileViewer = () => {
         }`}
       >
         {files.length === 0 ? (
-          <div className={styles.title}>Sube archivos y podrás hablar con ellos</div>
+          <div className={styles.title}>Sube archivos y crea copy con ellos</div>
         ) : (
           files.map((file) => (
             <div key={file.file_id} className={styles.fileEntry}>

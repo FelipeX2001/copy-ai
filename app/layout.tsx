@@ -8,7 +8,7 @@ export const metadata = {
   title: "CopyAI | IApps",
   description: "Asistente IA para copywrite",
   icons: {
-    icon: "public/aiclon.svg",
+    icon: "/aiclon.svg",
   },
 };
 
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={montserrat.className}>
         {assistantId ? children : <Warnings />}
-        <img className="logo" src="public/aiclon.svg" alt="AICLON Logo" />
+        <img className="logo" src="/aiclon.svg" alt="AICLON Logo" />
       </body>
     </html>
   );
