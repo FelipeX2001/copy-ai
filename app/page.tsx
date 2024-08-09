@@ -16,7 +16,7 @@ const Home = () => {
         <img src={logo.src} alt="Logo" className={styles.logo} />
       </div>
       <div className={styles.title}>
-        Copywrite con Inteligencia Artificial
+        Copywrite y Redacción con Inteligencia Artificial
       </div>
       <div className={styles.container}>
         {Object.entries(categories).map(([name, url]) => (
